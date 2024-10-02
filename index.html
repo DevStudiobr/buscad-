@@ -3,32 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscadó</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    
+    <!-- Título otimizado para SEO -->
+    <title>Buscadó - O Melhor Comparador de Preços Online</title>
+    
+    <!-- Descrição meta (essencial para SEO) -->
+    <meta name="description" content="Buscadó é o melhor site para comparar preços em marketplaces como Mercado Livre. Encontre as melhores ofertas e economize nas suas compras online.">
+
+    <!-- Palavras-chave (keywords) -->
+    <meta name="keywords" content="comparador de preços, ofertas online, mercado livre, buscador de ofertas, melhores preços, compras online, economizar, buscador de produtos">
+    
+    <!-- Autor -->
+    <meta name="author" content="Equipe Buscadó">
+    
+    <!-- Meta Open Graph para redes sociais (Facebook, etc.) -->
+    <meta property="og:title" content="Buscadó - O Melhor Comparador de Preços Online">
+    <meta property="og:description" content="Buscadó ajuda você a encontrar as melhores ofertas em diversos marketplaces, economize em suas compras online!">
+    <meta property="og:image" content="https://devstudiobr.github.io/buscad-/imagens/logo.png"> <!-- Substituir pelo logo real -->
+    <meta property="og:url" content="https://devstudiobr.github.io/buscad-/">
+    <meta property="og:type" content="website">
+    
+    <!-- Meta Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Buscadó - O Melhor Comparador de Preços Online">
+    <meta name="twitter:description" content="Compare preços e economize nas melhores ofertas em marketplaces com o Buscadó.">
+    <meta name="twitter:image" content="https://devstudiobr.github.io/buscad-/imagens/logo.png"> <!-- Substituir pelo logo real -->
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://devstudiobr.github.io/buscad-/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://devstudiobr.github.io/buscad-/favicon.ico" type="image/x-icon">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<header>
-    <h1 class="logo">Buscad<span class="highlight">ó</span></h1>
-    <div class="search-container">
-        <input type="text" id="search-input" placeholder="O que você está procurando?" />
-        <select id="marketplace-select">
-            <option value="mercado_livre">Mercado Livre</option>
-            <!-- Outras opções de marketplaces no futuro -->
-        </select>
-        <button id="search-button">
-            <i class="fas fa-search"></i>
-        </button>
-    </div>
-</header>
+    <header>
+        <h1 class="logo">Buscad<span class="highlight">ó</span></h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="O que você está procurando?" />
+            <select id="marketplace-select">
+                <option value="mercado_livre">Mercado Livre</option>
+                <!-- Outras opções futuras -->
+            </select>
+            <button id="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </header>
 
-<div id="results"></div>
-    <main>
-        <div id="results" class="results-container"></div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Buscadó. Todos os direitos reservados.</p>
-    </footer>
+    <div id="results"></div>
+
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
-</html>
+        </html>
